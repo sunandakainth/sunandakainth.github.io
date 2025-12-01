@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="light.css" id="theme"/> 
+        <body>
+            <center>
+                <div class = "container">
+                    <button onclick="switchtheme()" id="darkmode"> Dark Mode</button> 
+                    <h1> Calculator</h1>
+                    <div class="margin-row">
+                        <input type="text" name="result" class="result" id="result"  readonly/>
+                        <input type="button" class="clear" onclick="ClearSceen()" value="C" />
+                    </div>
+                
+                    <div class="margin-row">
+                       <input type="button"  value="1" onclick="LiveScreen(1)" id="one" /> 
+                        <input type="button"  value="2" onclick="LiveScreen(2)" id="two" /> 
+                         <input type="button"  value="3" onclick="LiveScreen(3)" id="three" /> 
+                          <input type="button"  value="+" onclick="LiveScreen('+')"  /> 
+                    </div>
+                     <div class="margin-row">
+                       <input type="button"  value="4" onclick="LiveScreen(4)" id="four" /> 
+                        <input type="button"  value="5" onclick="LiveScreen(5)" id="five" /> 
+                         <input type="button"  value="6" onclick="LiveScreen6(6)" id="six" /> 
+                          <input type="button"  value="-" onclick="LiveScreen('-')" /> 
+                    </div>
+
+                    <div class="margin-row">
+                       <input type="button"  value="7" onclick="LiveScreen(7)" id="1" /> 
+                        <input type="button"  value="8" onclick="LiveScreen(8)" id="2" /> 
+                         <input type="button"  value="9" onclick="LiveScreen6(9)" id="3" /> 
+                          <input type="button"  value="*" onclick="LiveScreen('*')" /> 
+                    </div>
+
+                    <div class="margin-row">
+                       <input type="button"  value="/" onclick="LiveScreen('/')"  /> 
+                        <input type="button"  value="0" onclick="LiveScreen(0)" id="zero" /> 
+                         <input type="button"  value="." onclick="LiveScreen('.')"  /> 
+                          <input type="button" value="=" onclick="result.value = eval(result.value)" /> 
+                    </div>
+                </div>
+                    <script src="index.js" async defer></script>
+            </center> 
+        </body>
+          
+    </head>
+</html>
