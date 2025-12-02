@@ -1,0 +1,114 @@
+body {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1024px;
+  background-color: #E5E7EB;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 5;
+}
+header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #4A5565;
+}
+h1 {
+  font-size: 2.2rem;
+  color: #eee;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  } 
+
+#img-div {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  height: 250px;
+  
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.img-wrapper {
+  position: relative;
+  height: fit-content;
+}
+
+.tint {
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(0,0,0,0) 0%, 
+    rgba(0,0,0,0) 50%, 
+    rgba(0,0,0,1) 100%
+  );
+}
+
+figcaption{
+    padding: .5rem 2rem;
+  font-size: .9rem;
+  text-align: center;
+  background-color: #E5E7EB;
+  font-weight: bold;
+
+}
+
+#kalam-timeline{
+    background-color: #eee;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+ul {
+  margin-bottom: 0px;
+
+  padding: 15px;
+}
+ul li {
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 25px;
+  text-align: justify;
+  
+  
+}
+strong {
+    color: #FF692A;
+  }
+
+  footer {
+  width: 100%;
+  padding: 0 0 1rem;
+  background-color: #eee;
+}
+
+blockquote {
+  font-weight: 300;
+  width: 93.7%;
+  padding: 3rem 2rem 2rem;
+  margin: 0;
+  background-color: #015F78;
+  color: #eee;
+  text-align: justify;
+}
+ h4{
+  text-align: center;
+  font-weight: 300;
+ }
